@@ -10,7 +10,6 @@ CLI utility, which tries to Keep it Simple.
   - [Contributing](#contributing)
   - [License](#license)
   - [Acknowledgments](#acknowledgments)
-  - [Contact](#contact)
 
 ## Installation
 

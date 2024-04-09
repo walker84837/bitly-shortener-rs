@@ -1,0 +1,26 @@
+[package]
+name = "bitly-shortener"
+version = "0.1.0"
+edition = "2021"
+license = "GPL-3.0"
+categories = ["command-line-utilities", "asynchronous"]
+keywords = ["bitly", "shortener", "cli", "command-line", "url-shortener"]
+readme = "README.md"
+repository = "https://github.com/walker84837/bitly-shortener-rs"
+
+[profile.dev]
+debug = false
+
+[profile.release]
+strip = true
+lto = true
+overflow-checks = true
+panic = "abort"
+
+[dependencies]
+anyhow = "1.0.81"
+clap = { version = "4.5.4", features = ["derive"] }
+reqwest = { version = "0.11", features = ["blocking", "json"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0.115"
+tokio = { version = "1.37.0", features = ["full"] }

@@ -1,5 +1,8 @@
 # bitly-shortener
 
+**DISCLAIMER**: This repository is now archived. If you want to contribute,
+please send me a message at `winlogon.exe@matrix.org` and I will unarchive it.
+
 This application implements the [Bitly API](https://dev.bitly.com/) as a Rust
 CLI utility, which tries to Keep it Simple.
 
